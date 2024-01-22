@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  IRPasscode
+
+  Created by Phil on 2019/11/15.
+  Copyright © 2019 Phil. All rights reserved.
+*/
+
+"January"="janvier";
+"February"="février";
+"March"="mars";
+"April"="avril";
+"May"="May";
+"June"="June";
+"July"="juillet";
+"August"="août";
+"September"="septembre";
+"October"="octobre";
+"November"="novembre";
+"December"="décembre";
+
+"Mon"="lundi";
+"Tue"="mardi";
+"Wed"="mercredI";
+"Thu"="jeudi";
+"Fri"="vendredi";
+"Sat"="samedi";
+"Sun"="dimanche";
+
+"date"="DATE";
+"from"="FROM";
+"to"="TO";

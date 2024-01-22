@@ -13,6 +13,12 @@
 		B5BD12162B5ACE9B0066E999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BD12142B5ACE9B0066E999 /* Main.storyboard */; };
 		B5BD12182B5ACE9D0066E999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BD12172B5ACE9D0066E999 /* Assets.xcassets */; };
 		B5BD121B2B5ACE9D0066E999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BD12192B5ACE9D0066E999 /* LaunchScreen.storyboard */; };
+		B5CD9CD82B5BA8A80039A6C3 /* IRCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD9CD72B5BA8A80039A6C3 /* IRCalendarView.swift */; };
+		B5CD9CDA2B5BA9200039A6C3 /* IRDayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CD9CD92B5BA9200039A6C3 /* IRDayButton.swift */; };
+		B5CD9CDE2B5BA9610039A6C3 /* img_month_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CD9CDB2B5BA9600039A6C3 /* img_month_forward.png */; };
+		B5CD9CDF2B5BA9610039A6C3 /* img_month_back.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CD9CDC2B5BA9600039A6C3 /* img_month_back.png */; };
+		B5CD9CE02B5BA9610039A6C3 /* img_dateMark.png in Resources */ = {isa = PBXBuildFile; fileRef = B5CD9CDD2B5BA9600039A6C3 /* img_dateMark.png */; };
+		B5CD9CE22B5BA9730039A6C3 /* IRCalendarView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5CD9CE12B5BA9720039A6C3 /* IRCalendarView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B5BD12172B5ACE9D0066E999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5BD121A2B5ACE9D0066E999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5BD121C2B5ACE9D0066E999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5CD9CD72B5BA8A80039A6C3 /* IRCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCalendarView.swift; sourceTree = "<group>"; };
+		B5CD9CD92B5BA9200039A6C3 /* IRDayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRDayButton.swift; sourceTree = "<group>"; };
+		B5CD9CDB2B5BA9600039A6C3 /* img_month_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_month_forward.png; sourceTree = "<group>"; };
+		B5CD9CDC2B5BA9600039A6C3 /* img_month_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_month_back.png; sourceTree = "<group>"; };
+		B5CD9CDD2B5BA9600039A6C3 /* img_dateMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_dateMark.png; sourceTree = "<group>"; };
+		B5CD9CE12B5BA9720039A6C3 /* IRCalendarView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IRCalendarView.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				B5BD120E2B5ACE9B0066E999 /* AppDelegate.swift */,
 				B5BD12102B5ACE9B0066E999 /* SceneDelegate.swift */,
 				B5BD12122B5ACE9B0066E999 /* ViewController.swift */,
+				B5CD9CD72B5BA8A80039A6C3 /* IRCalendarView.swift */,
+				B5CD9CD92B5BA9200039A6C3 /* IRDayButton.swift */,
+				B5CD9CE12B5BA9720039A6C3 /* IRCalendarView.bundle */,
+				B5CD9CDD2B5BA9600039A6C3 /* img_dateMark.png */,
+				B5CD9CDC2B5BA9600039A6C3 /* img_month_back.png */,
+				B5CD9CDB2B5BA9600039A6C3 /* img_month_forward.png */,
 				B5BD12142B5ACE9B0066E999 /* Main.storyboard */,
 				B5BD12172B5ACE9D0066E999 /* Assets.xcassets */,
 				B5BD12192B5ACE9D0066E999 /* LaunchScreen.storyboard */,
@@ -125,8 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CD9CE02B5BA9610039A6C3 /* img_dateMark.png in Resources */,
 				B5BD121B2B5ACE9D0066E999 /* LaunchScreen.storyboard in Resources */,
 				B5BD12182B5ACE9D0066E999 /* Assets.xcassets in Resources */,
+				B5CD9CDF2B5BA9610039A6C3 /* img_month_back.png in Resources */,
+				B5CD9CE22B5BA9730039A6C3 /* IRCalendarView.bundle in Resources */,
+				B5CD9CDE2B5BA9610039A6C3 /* img_month_forward.png in Resources */,
 				B5BD12162B5ACE9B0066E999 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +163,8 @@
 				B5BD12132B5ACE9B0066E999 /* ViewController.swift in Sources */,
 				B5BD120F2B5ACE9B0066E999 /* AppDelegate.swift in Sources */,
 				B5BD12112B5ACE9B0066E999 /* SceneDelegate.swift in Sources */,
+				B5CD9CD82B5BA8A80039A6C3 /* IRCalendarView.swift in Sources */,
+				B5CD9CDA2B5BA9200039A6C3 /* IRDayButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,13 +7,26 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, IRCalendarViewDelegate {
+
+    @IBOutlet weak var calendarView: IRCalendarView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        calendarView.delegate = self
     }
 
+    // MARK: - IRCalendarViewDelegate Methods
+    func dayButtonPressed(_ button: IRDayButton) {
+        print("day: \(String(describing: button.buttonDate))")
+    }
 
+    func prevButtonPressed() {
+        print("prevButtonPressed")
+    }
+
+    func nextButtonPressed() {
+        print("nextButtonPressed")
+    }
 }
-

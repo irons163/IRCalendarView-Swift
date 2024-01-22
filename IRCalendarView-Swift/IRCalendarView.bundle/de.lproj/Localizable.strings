@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  IRCalendarView
+
+  Created by Phil on 2019/11/15.
+  Copyright © 2019 Phil. All rights reserved.
+*/
+
+"January"="January";
+"February"="February";
+"March"="March";
+"April"="April";
+"May"="May";
+"June"="June";
+"July"="Juli";
+"August"="August";
+"September"="September";
+"October"="Oktober";
+"November"="November";
+"December"="Dezember";
+
+"Mon"="Montag";
+"Tue"="Dienstag";
+"Wed"="Mittwoch";
+"Thu"="Donnestag";
+"Fri"="Freitag";
+"Sat"="Samstag";
+"Sun"="Sonntag";
+
+"date"="DATE";
+"from"="FROM";
+"to"="TO";

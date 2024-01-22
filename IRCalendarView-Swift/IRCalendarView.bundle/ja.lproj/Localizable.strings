@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  IRPasscode
+
+  Created by Phil on 2019/11/15.
+  Copyright © 2019 Phil. All rights reserved.
+*/
+
+"January"="一月";
+"February"="二月";
+"March"="三月";
+"April"="四月";
+"May"="五月";
+"June"="六月";
+"July"="七月";
+"August"="八月";
+"September"="九月";
+"October"="十月";
+"November"="十一月";
+"December"="十二月";
+
+"Mon"="月曜日";
+"Tue"="火曜日";
+"Wed"="水曜日";
+"Thu"="木曜日";
+"Fri"="金曜日";
+"Sat"="土曜日";
+"Sun"="日曜日";
+
+"date"="DATE";
+"from"="FROM";
+"to"="TO";
